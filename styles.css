@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.intro-text {
+  max-width: 700px;
+  margin-bottom: 16px;
+}
+
+.section-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.section-list li {
+  margin: 4px 0;
+}
+
+.section-list a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.section-list a:hover {
+  text-decoration: underline;
+}
+
+/* Sections layout */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 24px 0;
+  gap: 16px;
+  border-top: 1px solid #ddd;
+  padding-top: 16px;
+}
+
+.section-text,
+.section-image {
+  flex: 1 1 300px;
+}
+
+.section-text h2 {
+  margin-top: 0;
+}
+
+.section-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
